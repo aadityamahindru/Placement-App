@@ -1,0 +1,13 @@
+.profile__img{
+    margin-top: 40px !important;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    img{
+        height: 80%;
+        object-fit: contain;
+        padding: 5%;
+        box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+        border-radius: 25%;
+    }
+}

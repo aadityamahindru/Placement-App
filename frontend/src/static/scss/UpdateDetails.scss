@@ -1,0 +1,43 @@
+.details{
+    .section{
+        justify-content: center;
+    }
+    .userImg_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        div{
+            background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+            color: white;
+            border: none;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            height: 15px;
+            width: 20%;
+            position: relative;
+            input{
+                opacity: 0;
+                cursor: pointer;
+                position: absolute;
+                top: 0px;
+                width: 100%;
+            }
+        }
+    }
+    .user_img{
+        object-fit: contain;
+        width: 70px;
+        padding: 15px;
+        box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+    }
+}
+.add-details{
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+}

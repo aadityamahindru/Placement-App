@@ -1,0 +1,28 @@
+.user__profile{
+    .divider{
+        border-color: lightgrey !important;
+    }
+    .user__nav{
+        width: 80%;
+        margin: 15px auto;
+        padding: 10px;
+        font-size: large;
+        border-bottom: 1px solid lightgrey;
+        a{
+            color: #1DBFAF;
+            outline: #1DBFAF;
+            &:hover{
+                color: #7c7171 !important;
+            }
+        }
+        color: #1DBFAF;
+         outline: #1DBFAF;
+         &:hover{
+            color: #7c7171 !important;
+        }
+        cursor: pointer;
+    }
+}
+.no_border{
+    border: none !important;
+}

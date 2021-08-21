@@ -1,0 +1,38 @@
+.gettingStarted{
+    .styleTemplate{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .template-card{
+        flex: 1 0 20%;
+        height: 360px;
+        // background-color: aquamarine;
+        margin: 20px;
+        box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    img{
+        flex: 1 0 20%;
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        object-fit: contain;
+    }
+    .btn-template{
+        border: none;
+        background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+        color: white;
+        cursor: pointer;
+        padding: 5%;
+        width: 70%;
+        position: relative;
+        top: -206px;
+        left: 17%;
+        border-radius: 5px;
+        &:hover{
+            text-decoration: underline white;
+        }
+    }
+}

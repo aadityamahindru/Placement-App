@@ -1,0 +1,41 @@
+.resume-preview{
+    display: flex;
+    flex-wrap: wrap;
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        width: 44%;
+        margin-bottom: 15px;
+
+        &.full{
+            width: 94%;
+        }
+        .effect{
+            border-radius: 5px;
+            span{
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 2px;
+                height: 100%;
+                background-color: #5ae4ce;
+                transform: scaleY(0);
+                transition: transform .15s ease-in-out;
+                transform-origin: center
+            }
+        }
+    }
+    .skillSection{
+        width: 100%;
+        .skill_name {
+            background-color: mediumaquamarine;
+            color: white;
+            padding: 9px;
+            margin: 5px;
+            margin-top: 10px;
+            border-radius: 30%;
+            width: fit-content;
+        }
+    }
+}

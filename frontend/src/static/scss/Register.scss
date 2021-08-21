@@ -1,0 +1,27 @@
+.register{
+    display: flex;
+    justify-content: center;
+    .register-container{
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
+        padding:20px;
+        box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+    }
+    .register__logo{
+        width: 100px;
+        object-fit: contain;
+    }
+    .no-account{
+        a{
+            color: #1DBFAF;
+            outline: #1DBFAF;
+
+            &:hover{
+                color: #5ae4ce;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "educationSection": {
+        "SCHO": "University Name",
+        "DGRE": "Degree",
+        "GRCG": "",
+        "GRDT": "Graduation Month",
+        "year": "Graduation Year",
+        "CITY": "City",
+        "SCIT": "State"
+    },
+    "contactSection": {
+        "first_name": "Your",
+        "last_name": "Name",
+        "PRSU": "Enter Your Professional Summary",
+        "email": "Email Id (xxx@abc.com)",
+        "phone": "Phone Number (99XXXXXXX5)",
+        "PROF": "Profession",
+        "STRT": "Street",
+        "CITY": "City",
+        "STAT": "State",
+        "CNTY": "Country",
+        "ZIPC": "Pin Code"
+    },
+    "document":{
+        "documentId":null,
+        "skinCd":""
+    },
+    "skillSection":{},
+    "user":null,
+    "jobId":null,
+    "menu":"home",
+    "admin":0,
+    "skills":"",
+    "allSkills":[]
+}

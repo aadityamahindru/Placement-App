@@ -1,0 +1,54 @@
+.job_container{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
+    .company_name{
+        color: #11A6BC;
+        outline: #1DBFAF;
+        font-size: larger;
+    }
+    .about_company{
+        .company_name{
+            margin: 0px;
+            cursor: pointer;
+        }
+        .job_desig{
+            margin-top: 5px;
+            font-size: small;
+        }
+        margin-bottom: 5px;
+        padding-top: 10px;
+    }
+    .building_logo{
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+        svg{
+            color: gray;
+            width: 60px;
+            font-size: 40px;
+        }
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        svg{
+            font-size: initial;
+            color: #11A6BC;
+        }
+    }
+    .company_details{
+        width: 100%;
+        .company_extra{
+            display: flex;
+            justify-content: space-between;
+            .joining{
+                padding-right: 10px;
+            }
+        }
+    }
+}

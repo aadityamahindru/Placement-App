@@ -1,0 +1,163 @@
+.contact{
+    height: 100%
+}
+.form-card{
+    width: 55%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.form-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        width: 44%;
+        margin-bottom: 15px;
+
+        &.full{
+            width: 94%;
+        }
+        label{
+            color: #597181;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .effect{
+            border-radius: 5px;
+            span{
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 2px;
+                height: 100%;
+                background-color: #5ae4ce;
+                transform: scaleY(0);
+                transition: transform .15s ease-in-out;
+                transform-origin: center
+            }
+        }
+        input,textarea{
+            border: none;
+            background-color: #f2f5fa;
+            padding:15px 10px;
+            width: 100%;
+            font-weight: 500;
+            color: #545d69;
+            box-sizing: border-box;
+            transition: all .2s ease-in-out;
+            outline: none !important;
+        }
+        .error {
+            margin-top: 3px;
+            color: #ff4848;
+            font-size: .8rem
+        }
+    }
+    .form-buttons{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+    .btn{
+        height: 35px !important;
+        margin: 20px 0px;
+        padding: 0px;
+    }
+    .back-btn{
+        color: #1DBFAF;
+        outline: #1DBFAF;
+        &:hover{
+            color: #5ae4ce;
+            text-decoration: underline #ebebeb;
+        }
+    }
+}
+
+
+
+
+
+// span style
+.input-group .effect {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+.input-group .effect>span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #5ae4ce;
+    transform: scaleY(0);
+    transition: transform .15s ease-in-out;
+    transform-origin: center
+}
+
+.input-group .effect .icon {
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    height: 100%
+}
+.input-group .effect .icon svg.green {
+    color: #03ad03 !important
+}
+
+.input-group .effect input:focus+span {
+    transform: scaleY(1);
+    border: none;
+}
+
+.input-group .effect input:focus+span+.icon svg {
+    color: #5ae4ce
+}
+
+.input-group .effect textarea:focus+span {
+    transform: scaleY(1);
+    border: none;
+}
+
+.input-group .effect textarea:focus+span+.icon svg {
+    color: #5ae4ce
+}
+
+input,textarea {
+    outline: none !important;
+}
+
+
+.input-group .error {
+    margin-top: 3px;
+    color: #ff4848;
+    font-size: .8rem
+}
+.skills{
+    display: flex;
+    align-items: center;
+    .effect{
+        width: 100% !important;
+        input{
+            width: 100% !important;
+        }
+    }
+    svg{
+        cursor: pointer;
+    }
+}
+
+
+

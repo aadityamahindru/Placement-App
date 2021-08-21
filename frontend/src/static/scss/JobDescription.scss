@@ -1,0 +1,88 @@
+.jd-section{
+    display: flex;
+}
+.jobDesc_image{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.jobDesc_info{
+    background-color: white;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.job_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    width: 70%;
+}
+.apply{
+    width: 30% !important;
+    background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.8);
+    height: fit-content;
+    p{
+        padding: 15px;
+    }
+    button{
+        margin-top: 15px;
+        width: 40%;
+        border: 2px solid gray;
+        font-weight: bold;
+        vertical-align: middle;
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 10px;
+        cursor: pointer;
+        &:disabled{
+            cursor: not-allowed;
+        }
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jobDesc_aboutCompany{
+    svg{
+        font-size: 60px;
+        color: gray;
+        margin-right: 20px;
+    }
+    display: flex;
+}
+.jobDesc_desig{
+    color: #11A6BC;
+    outline: #1DBFAF;
+    font-size: larger;
+}
+.margin-five{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+}
+.jd_section{
+    width: 100%;
+    z-index: 90;
+    width: 90%;
+    margin: 5px 5% 0px 5%;
+}
+.newline{
+    white-space: pre-line;
+    line-height: 1.6;
+}
+.jd{
+    .title{
+        color: #11A6BC;
+    }
+}

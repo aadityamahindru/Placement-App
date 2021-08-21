@@ -1,0 +1,57 @@
+.job-stats{
+    display: flex;
+}
+table{
+    width: 100%;
+    margin-top: 30px;
+    
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    th{
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+        padding: .75rem;
+        border-top: 2px solid #dee2e6;
+    }
+    th,td{
+        padding: 20px;
+    }
+}
+.details-table{
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
+    min-height: 80vh;
+    width: 100%;
+    z-index: 90;
+    margin-top: 70px;
+    &.mid{
+        width: 90%;
+        margin: 70px 5% 0px 5%;
+    }
+}
+.excel{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: medium;
+    color: white !important;
+    border: none;
+    &:hover{
+        color: #7c7171 !important;
+    }
+}
+.excel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.6);
+    height: fit-content;
+    margin: 70px 5% 0px 5%;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    width: 25%;
+    margin: 70px 55px 0px 0px;
+    height: 11rem;
+}
+.edit{
+    font-size: large;
+}

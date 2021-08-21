@@ -1,0 +1,43 @@
+.skin1{
+
+    padding:3%;
+    .contact-name{
+        color: cornflowerblue;
+        font-size: 35px;
+        margin: 10px 0px;
+        font-weight: bold;
+        padding: 5px 0px;
+    }
+    p{
+        font-size: small;
+    }
+    .address{
+        padding: 5px 0px;
+    }
+    .professionalSection{
+        width: 100%;
+    }
+    .educationSection{
+        .heading{
+            color: darkcyan;
+            width: 100%;
+            margin: 10px 0px;
+            padding: 5px 0px;
+        }
+        .grad_info{
+            font-size: 10px;
+            display: inline-block;
+        }
+        .grad_year{
+            font-size: 10px;
+            float: right;
+        }
+    }
+}
+.name-section,.educationSection{
+    width: 100% !important;
+}
+.divider{
+    width: 100%;
+    border-bottom: 1px solid darkcyan;
+}
